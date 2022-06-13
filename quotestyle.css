@@ -1,0 +1,78 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #app {
+        background-color: red;
+        width: 500px;
+        height: 450px;
+        border-radius: 5px;
+        position: relative;
+    }
+    
+    #app img {
+        margin: 20px;
+    }
+    
+    #quote {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        margin: 20px;
+    }
+    
+    .sperator {
+        width: 40%;
+        height: 4px;
+        background-color: #d8caca;
+        display: block;
+        margin: auto;
+        position: relative;
+    }
+    
+    #author {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 30px 0;
+        color: white;
+    }
+    
+    #control {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    #control input {
+        margin: 10px;
+        width: 25rem;
+        height: 30px;
+    }
+    
+    .main h1 {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    button {
+        margin: 10px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 50px 0;
+    }
+    
+    .main {
+        background-color: #d8caca;
+        height: 748px;
+    }
+    
+    .quote-right {
+        text-align: left;
+        display: block;
+    }
